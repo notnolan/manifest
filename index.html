@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifest</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100vh;
+            margin: 0;
+            font-family: "Helvetica", Arial, sans-serif;
+        }
+
+        #container {
+            text-align: center;
+            margin-top: auto;
+        }
+
+        #showroom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            margin: 10px;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manifest</h1>
+
+    <div id="showroom"></div>
+
+    <div id="container"></div>
+
+    <script src="script.js"></script>
+    <script>
+        const content = [
+            "Title 1: Content 1",
+            "Title 2: Content 2",
+            "Title 3: Content 3",
+            // Add more lines of content as needed
+        ];
+
+        // Function to generate image from text using DALL·E API
+        async function generateImageFromText(text) {
+            // API call to DALL·E
+            // ...
+        }
+
+        // Function to display generated image in the showroom
+        function displayImage(imageUrl, title) {
+            // Display image in the showroom
+            // ...
+        }
+
+        // Iterate over each line of content, extract title and text, generate/display images
+        async function processContent() {
+            // Process the content
+            // ...
+        }
+
+        // Call the function to process the content
+        processContent();
+    </script>
+</body>
+</html>
